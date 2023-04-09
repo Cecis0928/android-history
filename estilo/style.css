@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Android";
+    src: url("../ex002/fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+}
+
+body {
+    background-color: #93AEC2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #105a92;
+}
+
+header>p {
+    color: white;
+}
+
+nav {
+    background-color: #014f8b;
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav>a:hover {
+    background-color: azure;
+    color: #93AEC2;
+}
+
+header>h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+main h1 {
+    color: #0683e9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+}
+
+main h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0683e9;
+    background-color: #105a92;
+    padding:  2px 6px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.492);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+main strong {
+    color: #014f8b;
+    font-weight: bolder;
+}
+main img{
+    width: 100%;
+}
+
+footer {
+    background-color: #014f8b;
+    color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
